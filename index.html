@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="calculator">
+            <div class="color">
+                <i class="fa-solid fa-droplet fa-xl" id="editcolor"></i>
+                <div class="colormeniu" id="colormeniu">
+                    <section class="colors">
+                        <div class="color1" id="color1"></div>
+                        <div class="color2" id="color2"></div>
+                        <div class="color3" id="color3"></div>
+                        <div class="color4" id="color4"></div>
+                        <div class="color5" id="color5"></div>
+                        <div class="color6" id="color6"></div>
+                        <div class="color7" id="color7"></div>
+                    </section>
+                </div>  
+            </div>
+            <div class="display-screen">
+                <div id="display"></div>
+            </div>
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button class="btn-operator bordertop" id="clear">C</button></td>
+                        <td><button class="btn-operator bordertop" id="(">(</button></td>
+                        <td><button class="btn-operator bordertop" id=")">)</button></td>
+                        <td><button class="btn-operator bordertop borderleft coloredit" id="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number" id="1">1</button></td>
+                        <td><button class="btn-number" id="2">2</button></td>
+                        <td><button class="btn-number" id="3">3</button></td>
+                        <td><button class="btn-operator borderleft coloredit" id="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number" id="4">4</button></td>
+                        <td><button class="btn-number" id="5">5</button></td>
+                        <td><button class="btn-number" id="6">6</button></td>
+                        <td><button class="btn-operator borderleft coloredit" id="*">&times;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-number" id="7">7</button></td>
+                        <td><button class="btn-number" id="8">8</button></td>
+                        <td><button class="btn-number" id="9">9</button></td>
+                        <td><button class="btn-equal borderleft coloredit" id="/">&divide;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-operator" id="backspace"><img src="img/Group.png" alt="delete"></button></td>
+                        <td><button class="btn-number" id="0">0</button></td>
+                        <td><button class="btn-number" id=".">.</button></td>
+                        <td><button class="btn-operator beqcolor" id="equal">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a8a1c24453.js" crossorigin="anonymous"></script>
+    <script src="js/colorEdit.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+}
+.container {
+    margin-top: 10px;
+    width: 368px;
+    height: 592px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(174.22deg, #313131 0%, rgba(18, 18, 18, 0) 95.4%);
+}
+.color{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px 0 0;
+}
+.fa-solid{
+    cursor: pointer;
+}
+.calculator{
+    position: relative;
+    width: 368px;
+    height: 592px;
+}
+#display {
+    margin: 0 10px;
+    height: 90px;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+td{
+    width: 90px;
+    height: 90px;
+}
+td button{
+    color: #ffffff;
+    width: 90px;
+    height: 90px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0);
+    font-size: 30px;
+}
+.bordertop{
+    border-top: 0.5px solid #E7D74A;
+}
+.borderleft{
+    border-left: 0.5px solid #E7D74A; 
+}
+.coloredit{
+    color: #E7D74A;
+}
+.beqcolor{
+    background-color: #E7D74A;
+    border-radius: 0 0 10px 0;
+}
+.colormeniu{
+    margin-top: 20px;
+    margin-right: -10px;
+    width: 368px;
+    position: absolute;
+    display: none;
+}
+.colors{
+    width: 368px;
+    display: flex;
+    justify-content: space-between;
+}
+.colors div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.color1{
+    background-color: #313131;
+}
+.color2{
+    background-color: #BD71C0;
+}
+.color3{
+    background-color: #71C09F;
+}
+.color4{
+    background-color: #7973C5;
+}
+.color5{
+    background-color: #C9C9C9;
+}
+.color6{
+    background-color: #DFC158;
+}
+.color7{
+    background-color: #FFA5A5;
+}
+
